@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Post from './Post.js'
 function App() {
   return (
     <div className="App">
@@ -17,7 +17,9 @@ function App() {
       </div>
 
       <h1>Hi from instagram</h1>
-
+      <Post/>
+      <Post/>
+      <Post/>
 
     </div>
   );
